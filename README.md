@@ -15,3 +15,16 @@ Hi, Welcome to Bear-Team 17, the team takes four members,(see members below). Th
 ## Activities
 
 The team together agreed to create a health related application named MedTrack, the following user stories will guide us in creating the application.
+
+
+## User stories
+
+1. The application will allow patients registration and keep patients details to the application database.
+   1.  Registration by creating user name and password
+   2.  Registration to the application using social media authentication, where users will be required to verify their social media accounts and get registered to the application using oauth2 security implementation.
+2. The application will doctors (registered by their authorities, local, regional, international) to register to the application.
+   1. Registration by creating user name and password
+   2. Registration to the application using social media authentication, where users will be required to verify their social media accounts and get registered to the application using oauth2 security implementation.
+3. The application will store basic health history of a registered patient like weight, height, gender, allergies, diabetic information.
+
+4. The application will store doctors profile data categorized by their socialization
