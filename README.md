@@ -12,12 +12,14 @@ Hi, Welcome to Bear-Team 17, the team takes four members,(see members below). Th
 3.  JibeMobel              Developer
 4.  Blast                  Developer
 
-## Activities
+## Activity I
 
 The team together agreed to create a health related application named MedTrack, the following user stories will guide us in creating the application.
 
+### Application Name Proposal and Approve
+    MedTrack was approved to be the name of the application
 
-## User stories
+### User stories
 
 1. The application will allow patients registration and keep patients details to the application database.
    1.  Registration by creating user name and password
@@ -33,3 +35,15 @@ The team together agreed to create a health related application named MedTrack, 
 7. Patients will set reminders of daily, weekly or monthly dosages
 8. Patients will be able to view history of their prescriptions requests
 9. Doctors will be able to view history of completed prescriptions requests
+
+### Techical Stack
+1.  Mongodb, Schema less database Engine
+2.  Nodejs   Javascript run-time for server side Application
+3.  expressJS Javascript framework thak help in creating application and RESTFULL api on the nodejs environemt
+4.  ReactJS  A Web view library for creating reusable web components
+5.  HTML5
+6.  CSS,SASSS
+
+## Activity II
+
+PM assigned Cards To Team Members using Waffle.io. A Github Project Tracking Application
