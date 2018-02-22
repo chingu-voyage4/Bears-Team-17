@@ -10,7 +10,7 @@ Hi, Welcome to Bear-Team 17, the team takes four members,(see members below). Th
 1.  Unwana Essien          Developer/Project Manager
 2.  Joseph Myalla          Developer
 3.  JibeMobel              Developer
-4.  Blast
+4.  Blast                  Developer
 
 ## Activities
 
