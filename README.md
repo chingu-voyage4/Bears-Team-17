@@ -7,11 +7,11 @@ Hi, Welcome to Bear-Team 17, the team takes four members,(see members below). Th
 
 ## Team                    Role
 
-1  Unwana Essien          Developer/Project Manager
-2  Joseph Myalla          Developer
-3  JibeMobel              Developer
-4  Blast
+1.  Unwana Essien          Developer/Project Manager
+2.  Joseph Myalla          Developer
+3.  JibeMobel              Developer
+4.  Blast
 
 ## Activities
 
-The team together agreed to create a health related application named MedTrack, the following user stories will guide us in creating the application. 
+The team together agreed to create a health related application named MedTrack, the following user stories will guide us in creating the application.
