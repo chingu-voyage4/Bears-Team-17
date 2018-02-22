@@ -25,6 +25,11 @@ The team together agreed to create a health related application named MedTrack, 
 2. The application will allow doctors (registered by their authorities, local, regional, international) to register to the application.
    1. Registration by creating user name and password
    2. Registration to the application using social media authentication, where users will be required to verify their social media accounts and get registered to the application using oauth2 security implementation.
-3. The application will store basic health history of a registered patient like weight, height, gender, allergies, diabetic information.
+3. Patients will store their basic health history like weight, height, gender, allergies, diabetic information.
 
-4. The application will store doctors profile data categorized by their socialization.
+4. Doctors will store the areas of specialization to the application
+5. Patients will request prescriptions and dosage from Doctors
+6. Doctors will create prescriptions and respond to prescriptions requests by Patients
+7. Patients will set reminders of daily, weekly or monthly dosages
+8. Patients will be able to view history of their prescriptions requests
+9. Doctors will be able to view history of completed prescriptions requests
