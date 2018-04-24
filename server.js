@@ -8,7 +8,7 @@ import './data//config/db';
 import constants from './data/config/constants';
 import { PrescriptionCasual, UserCasual } from './data/mocks';
 
-const GRAPHQL_PORT = 7575;
+const GRAPHQL_PORT = process.env.PORT || 7575;
 
 const graphQLServer = express();
 graphQLServer.use(cors());
