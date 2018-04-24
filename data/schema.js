@@ -1,14 +1,25 @@
-import { makeExecutableSchema, addMockFunctionsToSchema } from 'graphql-tools';
-import mocks from './mocks';
+import { makeExecutableSchema } from 'graphql-tools';
+import resolvers from './resolvers';
+import { HealthRecord,User } from './types';
+import { HealthRecordQuery,UserQuery } from './queries';
+import { HealthRecordMutations,UserMutations } from './mutations';
+
 
 const typeDefs = `
-type Query {
-  testString: String
+type Query{
+${HealthRecordQuery}
+${UserQuery}
 }
+
+type Mutation{
+${HealthRecordMutations}
+${UserMutations}
+}
+
+${HealthRecord}
+${User}
 `;
 
-const schema = makeExecutableSchema({ typeDefs });
-
-addMockFunctionsToSchema({ schema, mocks });
+const schema = makeExecutableSchema({ typeDefs,resolvers });
 
 export default schema;
