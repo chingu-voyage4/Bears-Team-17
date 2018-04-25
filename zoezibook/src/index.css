@@ -1,0 +1,310 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: Raleway,sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.iconClass-large {
+ color:#33d9b2;
+ font-size: 500px;
+}
+
+.iconClass-small {
+ color:#33d9b2;
+ font-size: 100px;
+}
+
+.iconClass-small-x{
+  color:#33d9b2;
+  font-size: 50px;
+}
+
+.nav {
+  width:100%;
+}
+.linkButton {
+  padding: 5px;
+  display: block;
+  width: 200px;
+  height:40px;
+  border:1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.linkButtonLogout {
+ background-color: #33d9b2;
+ border: none;
+ color: white;
+ padding: 5px 5px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ font-weight: bold;
+ border-radius:4px;
+}
+
+.namesInputStyle {
+    width: 400px;
+    height:40px;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+}
+
+.selectDoctorStyle {
+    width: 400px;
+    height:48px;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+}
+
+.labelStyle {
+  width: 800px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin:5px 2px;
+}
+
+.buttonContainerStyle {
+  width: 800px;
+  height: 80px;
+  text-align: center;
+  padding-top: 10px;
+  margin:5px 2px;
+}
+
+.buttonStyle {
+    background-color: #4CAF50;
+    border: none;
+    width: 200px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 5px #f7f1e3;
+}
+
+.buttonStyleh:hover {
+    background-color: #555555;
+    color: white;
+    width: 198px;
+}
+.emailInputStyle, .passwordLogin,.textInputStyle {
+    width: 400px;
+    height:40px;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+}
+
+.nav > li, a {
+  color: #33d9b2;
+  font-weight: 600;
+  text-decoration: none;
+}
+.signTitle {
+  font-size:25px;
+  font-weight: 400;
+}
+.SignCall {
+  padding:30px;
+  text-align: center;
+  width: 400px;
+}
+
+.submitRequestInputContainer, .submitRequestButtonContainer {
+  padding:20px;
+}
+
+.requestPrescriptionLink {
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 5px;
+  color:#f2f2f2;
+  background-color:#33d9b2;
+}
+
+.requestPrescriptionLink:hover {
+  background-color: #00cc99;
+}
+/* Flexbox css  */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SocialLinks,.signinUp,.nav {
+  display: flex;
+}
+
+.signinUp {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav > li {
+  text-transform: uppercase;
+  list-style-type: none;
+}
+.nav >li:first-child {
+   margin-right: auto;
+}
+
+.nav > li:last-child {
+  padding-right: 20px;
+}
+
+.nav > li:not(:first-child) {
+  padding-left: 20px;
+}
+
+.namesInput {
+ display: flex;
+}
+
+.emailInputContainer,.passwordInputContainer {
+  display: flex;
+
+}
+
+.passwordInput {
+  display: flex;
+}
+
+.prescriptionRequestContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitRequestButtonContainer {
+   display: flex;
+   justify-content: center;
+}
+
+.congtrolsAndMapWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.congtrolsAndMapWrapper > div:nth-child(2) {
+  order:2;
+}
+
+.mapstyle {
+  width:800px;
+  padding-top:25px;
+}
+
+@media (max-Width:800px) {
+  .namesInput,.passwordInput,.SocialLinks,.signinUp,.emailInputContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .requestPrescriptionLink {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .emailInputContainer > *,.passwordInputContainer > *,.SocialLinks > *,.signinUp>*  {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    flex: 1 1 90%;
+  }
+
+ .linkButton,.buttonContainerStyle {
+    width: 400px;
+  }
+
+  .labelStyle {
+    width: 400px;
+    padding:50px;
+  }
+  .emailInputStyle, .passwordLogin,.textInputStyle {
+    width: 400px;
+  }
+
+  .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav li:nth-child(1) {
+
+      flex: 1 1 90%;
+    }
+    .nav li:not(:nth-child(1)) {
+
+      flex: 1 1 90%;
+    }
+
+    .healthrecordContainer {
+      justify-content: center;
+    }
+
+    .iconClass-large {
+       font-size:250px;
+    }
+
+    .congtrolsAndMapWrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .congtrolsAndMapWrapper > div:nth-child(2) {
+      order:2;
+    }
+    .mapstyle {
+      width:400px;
+      padding-top:25px;
+    }
+}
+
+.HealthRecordTable {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-Between;
+}
+.prescriptionContainer, .healthrecordContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.healthRecordCard {
+  font-size: 16px;
+  line-height: 2.4em;
+}
+.healthrecordWrapper {
+  display: flex;
+  width:300px;
+  justify-content: center;
+  border:1px solid #33d9b2;
+  border-radius: 10px;
+  padding:20px;
+  margin:10px;
+  box-shadow: 1px 2px 2px #f7f1e3;
+}
+
+.healthrecordWrapper:hover {
+  box-shadow: 1px 2px 2px #555555;
+}
+.prescriptionWrapper > div:first-child {
+  margin-right: 10px;
+}
