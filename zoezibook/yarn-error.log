@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kec\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-google-maps
+
+PATH: 
+  C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Program Files\Dell\DW WLAN Card;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Python27;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\PuTTY;C:\Program Files\nodejs;C:\Users\kec\AppData\Roaming\Dashlane\4.6.8.26847\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\kec\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\Microsoft VS Code\bin;C:\sqllite;C:\Users\kec\AppData\Local\atom\bin;C:\Users\Public\xamp\php;C:\Users\kec\AppData\Roaming\Composer\vendor\bin;C:\Users\kec\AppData\Local\.meteor;C:\Program Files\Heroku\bin;C:\Users\kec\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.0
+
+Node version: 
+  7.7.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "apollo-cache-inmemory": "^1.1.7",
+      "apollo-client": "^2.2.2",
+      "apollo-client-preset": "^1.0.8",
+      "apollo-link-http": "^1.3.2",
+      "apollo-test-utils": "^0.3.2",
+      "font-awesome": "^4.7.0",
+      "graphql": "^0.12.3",
+      "graphql-tag": "^2.6.1",
+      "graphql-tools": "^2.20.0",
+      "react": "^16.2.0",
+      "react-apollo": "^2.0.4",
+      "react-dom": "^16.2.0",
+      "react-router": "^4.2.0",
+      "react-router-dom": "^4.2.2",
+      "tachyons": "^4.9.1"
+    },
+    "devDependencies": {
+      "react-scripts": "1.1.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\users\kec\desktop\resources\My-FreeCodeCamp-Code\Graphql\bears-team17\node_modules\font-awesome\.npmignore'
