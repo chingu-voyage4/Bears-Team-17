@@ -63,7 +63,7 @@ render () {
             const { password,firstName,middleName,lastName,email } = this.state
             this.props.registerUser({password,firstName,middleName,lastName,email})
               .then((response) => {
-                const token = response.data.login.jwt;
+                const token = response.data.registerUser.jwt;
                 saveUserData(token);
                 return  this.props.history.replace('/healthrecords')
             }).catch((err) => {
