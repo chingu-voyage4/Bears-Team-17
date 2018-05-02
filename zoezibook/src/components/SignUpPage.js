@@ -18,15 +18,12 @@ class SignUpPage extends React.Component {
       confirmpassword:'',
     };
   }
-
 render () {
-
   const { password,confirmpassword } = this.state;
   const passwordEqual = password === confirmpassword;
   console.log(passwordEqual);
     return (
     <div className="wrapper">
-
        <div className='signTitle'>
             Create Your Account
        </div>
@@ -34,8 +31,6 @@ render () {
 
           Your Sign in account is the gateway to create and organise your fitness data, keep your account details secret
         </div>
-
-
         <div>
             <TextInput inputStyle='namesInputStyle'  type="text" name="firstName" placeholder="First Name" onChange={this.firstNameChange} />
         </div>
@@ -90,7 +85,6 @@ render () {
       }
 }
 
-
 const regsistrationMutation = gql`
   mutation registerUser($password:String!,$firstName:String!,$middleName:String!,$lastName:String!,$email:String!) {
     registerUser(password:$password,firstName:$firstName,middleName:$middleName,lastName:$lastName,email:$email){
@@ -98,7 +92,6 @@ const regsistrationMutation = gql`
     }
   }
 `
-
 
 //export default SignUpPage;
 
